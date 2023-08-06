@@ -64,11 +64,11 @@ public class GameCanvas : MonoBehaviour
         bool scoreOutOfSliderRange = false;
         while (numberBarSlider.value != FindObjectOfType<Wheel>().currentScore && !scoreOutOfSliderRange)
         {
-            if (numberBarSlider.value > FindObjectOfType<Wheel>().currentScore) { numberBarSlider.value -= .1f; }
-            else if (numberBarSlider.value < FindObjectOfType<Wheel>().currentScore) { numberBarSlider.value += .1f; }
+            if (numberBarSlider.value > FindObjectOfType<Wheel>().currentScore) { numberBarSlider.value -= .5f; }
+            else if (numberBarSlider.value < FindObjectOfType<Wheel>().currentScore) { numberBarSlider.value += .5f; }
             numberBarSlider.value = System.MathF.Round(numberBarSlider.value, 1);
             textCurrentScore.text = Mathf.RoundToInt(numberBarSlider.value).ToString();   
-            yield return new WaitForSeconds(.9f / differenceBetweenScores*.05f);
+            yield return new WaitForSeconds(.9f / differenceBetweenScores*.1f);
             if (numberBarSlider.value == numberBarSlider.maxValue || numberBarSlider.value == numberBarSlider.minValue)
             {
                 scoreOutOfSliderRange = FindObjectOfType<Wheel>().currentScore > numberBarSlider.maxValue || FindObjectOfType<Wheel>().currentScore < numberBarSlider.minValue;
