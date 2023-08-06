@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 652a7ec84a0bdde43af46b0312e2e73b, type: 3}
+  m_Name: Level 3-3
+  m_EditorClassIdentifier: 
+  targetScore: 3
+  actions: 5
+  segments:
+  - powerType: 0
+    powerAmount: 7
+  - powerType: 1
+    powerAmount: 1
+  - powerType: 1
+    powerAmount: 1
+  wheel: {fileID: 2780269951372395478, guid: 37f8d0eb7b114a14ebe8f2a4d4de8075, type: 3}
+  hint: That cheeky little number in the middle is the amount of actions that will
+    be performed. You may find your CYCLE repeats itself.

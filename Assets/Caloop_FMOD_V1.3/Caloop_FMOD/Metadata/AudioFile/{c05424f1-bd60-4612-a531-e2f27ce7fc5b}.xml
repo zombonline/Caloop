@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c05424f1-bd60-4612-a531-e2f27ce7fc5b}">
+		<property name="assetPath">
+			<value>Gameplay/Gameplay_Percussion Hard_A.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>32.612993197278911</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1d3658c1-9d41-4bd4-9ecf-720519c70665}</destination>
+		</relationship>
+	</object>
+</objects>

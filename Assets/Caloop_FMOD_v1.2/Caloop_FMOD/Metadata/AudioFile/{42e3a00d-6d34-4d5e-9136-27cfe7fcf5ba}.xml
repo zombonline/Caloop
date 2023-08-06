@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{42e3a00d-6d34-4d5e-9136-27cfe7fcf5ba}">
+		<property name="assetPath">
+			<value>Gameplay/Gameplay_Cowbell &amp; Timbales_B.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>26.666666666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1d3658c1-9d41-4bd4-9ecf-720519c70665}</destination>
+		</relationship>
+	</object>
+</objects>

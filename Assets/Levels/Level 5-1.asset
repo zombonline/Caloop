@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 652a7ec84a0bdde43af46b0312e2e73b, type: 3}
+  m_Name: Level 5-1
+  m_EditorClassIdentifier: 
+  targetScore: 5
+  actions: 5
+  segments:
+  - powerType: 0
+    powerAmount: 3
+    sprite: {fileID: 21300000, guid: f8a1fc7a2fc7f27498455da15117504b, type: 3}
+  - powerType: 1
+    powerAmount: 1
+    sprite: {fileID: 21300000, guid: f8a1fc7a2fc7f27498455da15117504b, type: 3}
+  - powerType: 3
+    powerAmount: 2
+    sprite: {fileID: 21300000, guid: cd6f0ae637e689e428f26ed77e190bb7, type: 3}
+  - powerType: 2
+    powerAmount: 2
+    sprite: {fileID: 21300000, guid: cd6f0ae637e689e428f26ed77e190bb7, type: 3}
+  - powerType: 0
+    powerAmount: 5
+    sprite: {fileID: 21300000, guid: cd6f0ae637e689e428f26ed77e190bb7, type: 3}
+  wheel: {fileID: 1580798921337264582, guid: 5fbc66672b0d39549a2573c97d2855fd, type: 3}
+  hint: Looks like you can fit more slices in this wheel!

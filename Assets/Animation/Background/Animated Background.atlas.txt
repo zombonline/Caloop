@@ -1,0 +1,43 @@
+Animated Background.png
+size:4106,3760
+filter:Linear,Linear
+pma:true
+Ellipse 10
+bounds:1389,196,303,303
+Ellipse 2
+bounds:1694,241,258,258
+Ellipse1
+bounds:1694,241,258,258
+Ellipse 3
+bounds:4004,3699,59,60
+rotate:90
+Ellipse 4
+bounds:4004,3699,59,60
+rotate:90
+Ellipse 5
+bounds:4004,3699,59,60
+rotate:90
+Ellipse 6
+bounds:2,2,117,117
+Ellipse 7
+bounds:2,2,117,117
+Ellipse 8
+bounds:1389,7,186,187
+Ellipse 9
+bounds:1389,7,186,187
+Gradient
+bounds:2,1508,4000,2250
+Line 1
+bounds:1389,501,1005,1005
+Line 2
+bounds:2396,707,799,799
+Line 3
+bounds:3064,185,520,520
+Line 4
+bounds:3197,707,799,799
+Line 5
+bounds:2,121,1385,1385
+Line 6
+bounds:3586,187,518,518
+Line 7
+bounds:2396,39,666,666

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 652a7ec84a0bdde43af46b0312e2e73b, type: 3}
+  m_Name: Level 8-2
+  m_EditorClassIdentifier: 
+  targetScore: 36
+  actions: 10
+  segments:
+  - powerType: 5
+    powerAmount: 0
+  - powerType: 5
+    powerAmount: 0
+  - powerType: 1
+    powerAmount: 3
+  - powerType: 2
+    powerAmount: 2
+  - powerType: 0
+    powerAmount: 5
+  - powerType: 1
+    powerAmount: 3
+  - powerType: 0
+    powerAmount: 8
+  - powerType: 0
+    powerAmount: 1
+  wheel: {fileID: 1577075013633303773, guid: 03404d0eff08ebe4ba963b1b5f6b39e0, type: 3}
+  hint: 

@@ -1,0 +1,19 @@
+Logo Assets.png
+size:998,228
+filter:Linear,Linear
+pma:true
+A Slice
+bounds:214,2,224,314
+rotate:90
+C
+bounds:528,5,198,221
+rotate:180
+L
+bounds:780,61,165,216
+rotate:90
+O 1
+bounds:2,5,211,221
+O 2
+bounds:2,5,211,221
+P
+bounds:728,10,197,216
