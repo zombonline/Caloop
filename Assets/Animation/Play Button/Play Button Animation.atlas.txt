@@ -1,0 +1,10 @@
+Play Button Animation.png
+size:3755,1144
+filter:Linear,Linear
+pma:true
+Button copy
+bounds:388,917,1138,225
+Pattern
+bounds:2,2,3751,913
+Play
+bounds:2,1035,384,107

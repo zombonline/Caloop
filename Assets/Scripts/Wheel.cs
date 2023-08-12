@@ -196,8 +196,14 @@ public class Wheel : MonoBehaviour
             FindObjectOfType<LevelLoader>().LoadLevelInformation(); //reset current level information
             FindObjectOfType<GameCanvas>().UpdateCanvasText(actionsRemaining, currentScore, targetScore); //update ui to show current level info has been reset.
             FindObjectOfType<GameCanvas>().ResetCurrentScore();
+            foreach(Segment segment in FindObjectsOfType<Segment>())
+            {
+                segment.SliceSpriteVisible();
+            }
             wheelToRotate.transform.eulerAngles = Vector3.zero; //return wheel to original rotation
-            spinDirection = 1; //return spin direction back to original direction.
+            wheelToRotate.GetComponent<SpriteRenderer>().sprite = spriteWheelAnticlockwise;
+            directionSpriteRenderer.sprite = directionSpriteAntiClockwise;
+            spinDirection = 1;
             skipNextSegment = false; //resets skip power incase turn ended with it enabled.
         }
     }
